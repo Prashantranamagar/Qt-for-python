@@ -24,7 +24,7 @@ class Widget(QWidget):
         button_about.clicked.connect(self.button_clicked_about)
 
         #Setup layouts
-        layout = QVBoxLayout()
+        layout = QVBoxLayout()   #vertical layout
         layout.addWidget(button_hard)
         layout.addWidget(button_critical)
         layout.addWidget(button_question)
